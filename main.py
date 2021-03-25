@@ -139,10 +139,10 @@ def ex_main_function(waypoints, sock):
 
 
 # IP and port of Tello
-tello_address = ('192.168.10.1', 8889)
+tello_address = ('192.168.10.2', 8889)
 
 # IP and port of local computer
-local_address = ('', 9000)
+local_address = (' ---- ', 9000)
 
 # Create a UDP connection that we'll send the command to
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
