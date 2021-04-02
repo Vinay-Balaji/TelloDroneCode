@@ -34,7 +34,7 @@ def petal1_3():  # petal method for quadrants 1 and 3
         send("cw" + str(degree), 5)
         send("forward" + str(inchesToCentimeters(8)), 5)
     send("cw" + str(12), 5)
-    send("forard" + str(inchesToCentimeters(8)), 5)
+    send("forward" + str(inchesToCentimeters(8)), 5)
     for i in range(0, 3):
         degree += 8
         send("cw" + str(degree), 5)
